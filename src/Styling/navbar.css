@@ -1,0 +1,32 @@
+  .navBar {
+    height: 70px;
+    width: 100%;
+    margin-right: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 10px;
+  }
+
+  .navBar img {
+    position: absolute;
+    left: 20px;
+  }
+  
+  li {
+    display: inline;
+    margin-left: 40px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .active {
+    color: #ec38bc;
+  }
+
+  .nonactive {
+    text-decoration: none;
+  }
